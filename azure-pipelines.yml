@@ -12,11 +12,11 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'ba7ddaaf-32b0-4734-b071-5346a8854f08'
-  imageRepository: 'orderservice'
+  imageRepository: 'order-service'
   containerRegistry: 'opdevregistry.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'opdevregistryc6bf-auth'
+  imagePullSecret: 'opdevregistrysp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
