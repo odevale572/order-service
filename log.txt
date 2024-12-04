@@ -1,0 +1,7 @@
+2012-12-16 05:08:37,905 [Thread-1] INFO  No. of records read from Event Archive: 5
+
+2012-12-16 05:08:38,444 [Thread-1] INFO  No. of records updated: 3
+
+2012-12-16 05:08:38,668 [Thread-1] INFO  No. of records updated in Mongo DB : 3
+
+2012-12-16 05:08:38,670 [Thread-1] INFO  No. of unprocessed records: 2
